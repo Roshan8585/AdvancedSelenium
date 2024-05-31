@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="smoke">
+				  
+			  </include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="shoes.adidas"/>
+      <class name="shoes.nike"/>
+      <class name="Shopping.Ajio"/>
+      <class name="Shopping.Amazon"/>
+      <class name="shoes.gucci"/>
+      <class name="shoes.puma"/>
+      <class name="Shopping.Flipkart"/>
+      <class name="shoes.redtape"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
